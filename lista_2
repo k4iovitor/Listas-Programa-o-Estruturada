@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+    float a, b;
+    float media_ponderada;
+
+    printf("A = ");
+    scanf("%f", &a);
+
+    printf("B = ");
+    scanf("%f", &b);
+
+    media_ponderada = ((a * 3.5) + (b * 7.5)) / 11;
+
+    printf("MEDIA: %.4f", media_ponderada);
+
+    return 0;
+}
